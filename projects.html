@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="container">
+                <a href="index.html" class="logo-text" id="logo-typing-text"></a>
+                <button class="menu-btn" id="menu-btn"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+                <nav id="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html" class="active">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="page-content">
+            <main>
+                <section class="page-section">
+                    <div class="container">
+                        <h2 class="section-title animate-on-scroll">My Projects</h2>
+                        <div class="project-grid">
+                            <div class="project-card animate-on-scroll" style="animation-delay: 0.2s;" 
+                                data-gallery-src="Image/cf.jpg" 
+                                data-title="How to Protect Web with Cloudflare's Under Attack Mode" 
+                                data-desc="This project explains how to use Cloudflare's 'I'm Under Attack' mode to protect your website from DDoS attacks. It covers the steps to activate this security feature, what happens when it's enabled, and how it effectively mitigates malicious traffic by presenting a security challenge to visitors. This tutorial is perfect for website owners and developers looking to enhance their site's security against potential threats."
+                                data-video-url="https://youtube.com/shorts/IW53VCB1A3o?si=4HqWzMRmrdwEnoCB">
+                                <img src="Image/cf.jpg" alt="Cloudflare Project Image">
+                                <div class="project-info">
+                                    <h4>Protect Website with Cloudflare</h4>
+                                    <p>Learn how to use Cloudflare's Under Attack mode to protect your site...</p>
+                                    <span class="project-link">View Details →</span>
+                                </div>
+                            </div>
+                            <div class="project-card animate-on-scroll" style="animation-delay: 0.4s;"
+                                data-gallery-src="Image/antiddos.jpg"
+                                data-title="Anti DDoS for Protected Growtopia Private Server"
+                                data-desc="This project focuses on implementing robust DDoS protection specifically for a Growtopia private server. It details the methods and strategies used to safeguard the server from various types of denial-of-service attacks, ensuring continuous availability and a stable gaming experience for players. This includes setting up advanced filtering, rate limiting, and other security measures tailored to the unique traffic patterns of a game server."
+                                data-video-url="">
+                                <img src="Image/antiddos.jpg" alt="Anti-DDoS Project Image">
+                                <div class="project-info">
+                                    <h4>Anti DDoS for Growtopia PS</h4>
+                                    <p>This is my project regarding DDoS protection for a Growtopia private server...</p>
+                                    <span class="project-link">View Details →</span>
+                                </div>
+                            </div>
+                            <div class="project-card animate-on-scroll" style="animation-delay: 0.6s;"
+                                data-gallery-src="Image/gtps1.jpg, Image/gtps2.jpg, Image/gtps3.jpg, Image/gtps4.jpg"
+                                data-title="Growtopia Private Server"
+                                data-desc="This is a private server for the game Growtopia. I developed it to learn about network programming and server-side logic. The project includes custom features, a secure login system, and an anti-cheat mechanism to ensure a fair and stable gaming environment. It was a great challenge in managing a large user base and handling real-time data efficiently.">
+                                <img src="Image/gtps2.jpg" alt="Growtopia PS Project Image">
+                                <div class="project-info">
+                                    <h4>Growtopia Private Server</h4>
+                                    <p>This is Growtopia Private Server...</p>
+                                    <span class="project-link">View Details →</span>
+                                </div>
+                            </div>
+                            <div class="project-card animate-on-scroll" style="animation-delay: 0.8s;"
+                                data-gallery-src="Image/autobup.jpg, Image/autobup1.jpg"
+                                data-title="Automatic Backup to Telegram"
+                                data-desc="This project is an automated backup system that sends critical files directly to a Telegram chat or channel. I built this to ensure important data is securely and instantly backed up without manual intervention. It's a practical application of API integration and scripting to create a reliable and convenient data protection solution."
+                                data-video-url="">
+                                <img src="Image/autobup1.jpg" alt="Auto Backup Project Image">
+                                <div class="project-info">
+                                    <h4>Auto Backup to Telegram</h4>
+                                    <p>An automated system to back up files directly to Telegram...</p>
+                                    <span class="project-link">View Details →</span>
+                                </div>
+                            </div>
+                            <div class="project-card animate-on-scroll" style="animation-delay: 1s;"
+                                data-gallery-src="Image/hack1.jpg, Image/hack2.jpg"
+                                data-title="Website Deface and Vulnerability Hunting"
+                                data-desc="This project focuses on the practice of finding web vulnerabilities that could lead to a 'deface' or unauthorized modification of a website's content. It covers techniques for ethical vulnerability hunting, such as using specialized tools and understanding common security flaws. The goal is to identify security weaknesses in a responsible manner and demonstrate the potential impact of these vulnerabilities by simulating a defacement, all done for educational purposes and to promote better web security practices."
+                                data-video-url="">
+                                <img src="Image/hack1.jpg" alt="Hacking Guide Project Image">
+                                <div class="project-info">
+                                    <h4>Website Deface & Vuln Hunting</h4>
+                                    <p>A guide to finding website vulnerabilities for ethical purposes.</p>
+                                    <span class="project-link">View Details →</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="index.html" class="back-button animate-on-scroll" style="animation-delay: 1.2s;">← Back to Home</a>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <div class="modal-overlay" id="project-modal-overlay">
+            <div class="modal-content" id="project-modal-content">
+                <button class="modal-close" id="modal-close-btn">×</button>
+                <div class="modal-image-gallery" id="modal-image-gallery">
+                    </div>
+                <h3 id="modal-title"></h3>
+                <p id="modal-desc"></p>
+                <a href="#" target="_blank" class="cta-button modal-video-btn" id="modal-video-btn">See Tutorial</a>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container footer-container">
+                <p>© 2025 Sky. All Rights Reserved.</p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/skyyyrx_" target="_blank" aria-label="Instagram"><img src="Image/Instagram.png" alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/@skyjustnpc" target="_blank" aria-label="TikTok"><img src="Image/TikTok.png" alt="TikTok"></a>
+                    <a href="https://wa.me/+6282310553659" target="_blank" aria-label="WhatsApp"><img src="Image/Whats'App.png" alt="WhatsApp"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

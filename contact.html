@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="container">
+                <a href="index.html" class="logo-text" id="logo-typing-text"></a>
+                <button class="menu-btn" id="menu-btn"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+                <nav id="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="page-content">
+            <main>
+                <section class="page-section">
+                    <div class="container">
+                        <h2 class="section-title-contact animate-on-scroll">Contact Me</h2>
+                        <p class="contact-intro animate-on-scroll" style="animation-delay: 0.2s;">
+                            Have a question or want to work together? Feel free to send a message or connect via social media.
+                        </p>
+
+                        <div class="contact-content animate-on-scroll" style="animation-delay: 0.4s;">
+                            <form action="https://formspree.io/f/movlgpzg" method="POST" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="cta-button">Send Message</button>
+                            </form>
+                            <div class="contact-info">
+                                <h4>Contact Info</h4>
+                                <p><strong>Email:</strong><br>skyjustnpc@gmail.com</p>
+                                <p><strong>Location:</strong><br> <a href="https://maps.app.goo.gl/hZTKFZKsrKZgNfci6" target="_blank">South Tangerang, Indonesia</a></p>
+                                <h4>Social Media</h4>
+                                <div class="social-icons">
+                                    <a href="https://www.instagram.com/skyyyrx_" target="_blank" aria-label="Instagram"><img src="Image/Instagram.png" alt="Instagram"></a>
+                                    <a href="https://www.tiktok.com/@skyjustnpc" target="_blank" aria-label="TikTok"><img src="Image/TikTok.png" alt="TikTok"></a>
+                                    <a href="https://wa.me/+6282310553659" target="_blank" aria-label="WhatsApp"><img src="Image/Whats'App.png" alt="WhatsApp"></a>
+                                </div>
+                            </div>
+                        </div>
+                         <a href="index.html" class="back-button animate-on-scroll" style="animation-delay: 0.8s;">&larr; Back to Home</a>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <footer>
+            <div class="container footer-container">
+                <p>&copy; 2025 Sky. All Rights Reserved.</p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/skyyyrx_" target="_blank" aria-label="Instagram"><img src="Image/Instagram.png" alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/@skyjustnpc" target="_blank" aria-label="TikTok"><img src="Image/TikTok.png" alt="TikTok"></a>
+                    <a href="https://wa.me/+6282310553659" target="_blank" aria-label="WhatsApp"><img src="Image/Whats'App.png" alt="WhatsApp"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
